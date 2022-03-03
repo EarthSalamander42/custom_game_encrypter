@@ -4,7 +4,7 @@ module.exports = {
 	debug: true,
 	noRestore: true,
 	key: '', //Enter first 32 digits of dedicated server code here
-	addonPath: path.resolve(__dirname, '../warpath_encrypted/'),
+	addonPath: path.resolve(__dirname, '../frostrose_battlefield_encrypted/'),
 
 	vscripts: {
 		patterns: [ //I'm not exactly sure how this works, so I have left the folders for custom hero clash, I think this is excluding some lua files from being encrypted
