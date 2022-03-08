@@ -1,9 +1,15 @@
 {
   "author": "ark120202",
   "dependencies": {
+    "fs-extra": "^10.0.1",
     "glob": "^7.1.6",
+    "lodash": "^4.17.21",
     "luamin": "1.0.4",
     "luaparse": "0.2.1",
-    "picomatch": "^2.2.1"
+    "micromatch": "^4.0.4",
+    "picomatch": "^2.2.1",
+    "postcss": "^8.4.7",
+    "postcss-selector-parser": "^6.0.9",
+    "prettier": "^2.5.1"
   }
 }
