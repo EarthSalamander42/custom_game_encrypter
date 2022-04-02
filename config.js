@@ -10,6 +10,7 @@ module.exports = {
 		patterns: [ //I'm not exactly sure how this works, so I have left the folders for custom hero clash, I think this is excluding some lua files from being encrypted
 			'**/*',
 			'!internal/client_util',
+			'!libraries/parabolic',
 			'!components/abilities/**/*',
 			'!libraries/modifiers/**/*',
 			'!components/items/**/*',
