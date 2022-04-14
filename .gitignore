@@ -1,3 +1,5 @@
 
 node_modules/*
 package-lock.json
+tools_asset_info.bin
+tools_thumbnail_cache.bin
