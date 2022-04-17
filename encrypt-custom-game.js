@@ -320,9 +320,10 @@ const moveDir = (from, to) => {
 	}
 };
 
-const panoramaOutPath = path.join(config.addonPath, 'content/panorama');
+console.log(config.addonPath)
+const panoramaOutPath = path.join(config.addonPath, 'panorama');
 const panoramaTempPath = path.join(__dirname, '_temp_panorama');
-const luaOutPath = path.join(config.addonPath, 'game/scripts/vscripts');
+const luaOutPath = path.join(config.addonPath, 'scripts/vscripts');
 const luaTempPath = path.join(__dirname, '_temp_vscripts');
 try {
 	moveDir(panoramaOutPath, panoramaTempPath);
