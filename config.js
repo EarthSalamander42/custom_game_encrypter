@@ -4,7 +4,7 @@ module.exports = {
   debug: false,
   noRestore: true,
   key: '', //Enter first 32 digits of dedicated server code here
-  addonPath: path.resolve(__dirname, '../custom_hero_chaos_22/'),
+  addonPath: path.resolve(__dirname, '../bsj_no_player_name_encrypted/'),
 
   vscripts: {
     patterns: [ //I'm not exactly sure how this works, so I have left the folders for custom hero clash, I think this is excluding some lua files from being encrypted
