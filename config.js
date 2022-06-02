@@ -9,12 +9,8 @@ module.exports = {
   vscripts: {
     patterns: [ //I'm not exactly sure how this works, so I have left the folders for custom hero clash, I think this is excluding some lua files from being encrypted
       '**/*',
-      '!creatures/**/*',
-      '!heroes/**/*',
-      '!items/**/*',
+      '!components/abilities/**/*',
       '!libraries/modifiers/**/*',
-      '!game/battlepass/default_cosmetic_ability',
-      '!game/battlepass/inventory/modifiers/**/*',
     ],
     clientModules: [],
   },
