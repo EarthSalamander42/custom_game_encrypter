@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   debug: false,
   noRestore: true,
-  key: '', //Enter first 32 digits of dedicated server code here
+  key: 'AF92823F5E4F57B3ACD31920797B2EB2', //Enter first 32 digits of dedicated server code here
   addonPath: path.resolve(__dirname, '../bsj_no_player_name_encrypted/'),
 
   vscripts: {
