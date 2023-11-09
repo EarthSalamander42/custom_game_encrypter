@@ -1,10 +1,13 @@
 const path = require('path');
 
+console.log("Addon path: " + __dirname);
 module.exports = {
-	debug: true,
+	debug: false,
 	noRestore: true,
-	key: '', //Enter first 32 digits of dedicated server code here
+	key: '',
 	addonPath: path.resolve(__dirname, '../warpath_encrypted/'),
+	addonName: 'warpath_encrypted',
+	// addonPath: path.resolve("", '../warpath_encrypted/'),
 
 	vscripts: {
 		patterns: [ //I'm not exactly sure how this works, so I have left the folders for custom hero clash, I think this is excluding some lua files from being encrypted
@@ -14,6 +17,7 @@ module.exports = {
 			'!abilities/**/*',
 			'!items/**/*',
 			'!modifiers/**/*',
+			'!components/battlepass/**/*',
 //			'!game/battlepass/default_cosmetic_ability',
 //			'!game/battlepass/inventory/modifiers/**/*',
 		],
